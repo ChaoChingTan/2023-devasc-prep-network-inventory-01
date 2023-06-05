@@ -1,0 +1,14 @@
+devices:
+  S1:
+    connections:
+      cli:
+        ip: 10.1.1.1
+        protocol: serial
+    credentials:
+      default:
+        password: '%ASK{}'
+        username: cisco
+      enable:
+        password: '%ASK{}'
+    os: ios
+    type: ios

@@ -1,2 +1,2 @@
 hostname,ip,username,password,protocol,os,enable_password
-S1,10.1.1.1,cisco,cisco,serial,ios,class
+S1,10.1.1.1,cisco,,serial,ios,

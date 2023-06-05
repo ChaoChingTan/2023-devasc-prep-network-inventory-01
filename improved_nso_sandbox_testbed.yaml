@@ -1,0 +1,15 @@
+testbed:
+  credentials:
+    default:
+      password: '%ASK{}'
+      username: '%ASK{}'
+    enable:
+      password: '%ASK{}'
+devices:
+  S1:
+    connections:
+      cli:
+        ip: 10.1.1.1
+        protocol: serial
+    os: ios
+    type: ios
